@@ -1,0 +1,8 @@
+CÁC THƯ VIỆN VÀ CÔNG DỤNG
+1. react-router-dom -> hỗ trợ cơ chế route
+2. classnames -> khi bluid hỗ trợ thêm id sau class
+3. sass -> tiền xử lí css
+4. react-app-rewired -> để cài thư viện customize-cra (sinh ra file config-overrides.js)
+5. customize-cra -> custom web-pack, balel, ... 
+6. babel-plugin-module-resolver -> cấu hình babel đường dẫn (.babelrc, file jsconfig.json để vs gợi ý)
+
