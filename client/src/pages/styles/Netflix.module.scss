@@ -1,0 +1,49 @@
+.header {
+  width: 1152px;
+  height: 86px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  .logo {
+    width: auto;
+    height: 100%;
+  }
+
+  .select-language {
+    width: 148px;
+    height: 32px;
+  }
+
+  .btn-sign-in {
+    width: 77px;
+    height: 32px;
+  }
+}
+
+.section-container {
+  width: 100%;
+  height: 700px;
+  background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%), url('../../assets/images/background-signup.jpg');
+  color: #fff;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .get-start {
+    width: 1152px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}

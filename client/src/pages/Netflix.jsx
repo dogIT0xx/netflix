@@ -1,26 +1,46 @@
-import images from '../assets/images'
+import classNames from 'classnames/bind'
+
+import styles from './styles/Netflix.module.scss'
+import logo from '~/assets/images/logo.png'
+import { FormGetStared, Banner, Button } from '~/components'
+
+const cx = classNames.bind(styles)
 
 function Netflix() {
   return (
-    <>
-      <header>
-        <img src={images.logo} alt="Netflix" />
-        <select name="language" id="language">
-          <option value="English">English</option>
-          <option value="Tieesng Việt">Tiếng Việt</option>
-        </select>
-        <button>Sign In</button>
+    <div>
+      <header className={cx('header')}>
+        <img className={cx('logo')} src={logo} alt="Netflix" />
+        <div>
+          <select
+            className={cx('select-language')}
+            name="language"
+            id="language"
+          >
+            <option value="English">English</option>
+            <option value="Tiếng Việt">Tiếng Việt</option>
+          </select>
+          <Button className={cx('btn-sign-in')} text="Sign In"></Button>
+        </div>
       </header>
 
-      <div>
+      <main>
+        <section className={cx('section-container')}>
+          <div className={cx('content')}>
+            <h1 className={cx('title')}>
+              Unlimited movies, TV shows, and more
+            </h1>
+            <p className={cx('sub-title')}>Watch anywhere. Cancel anytime.</p>
+            <FormGetStared />
+          </div>
+        </section>
         <section></section>
         <section></section>
         <section></section>
-        <section></section>
-      </div>
+      </main>
 
       <footer></footer>
-    </>
+    </div>
   )
 }
 

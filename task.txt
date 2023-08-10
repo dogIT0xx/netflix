@@ -1,1 +1,9 @@
-1. Setup client
+1. Setup client 
+  - Cài thư viện
+  - Setup forder
+  - Nhúng font, reset css
+  - Tải cơ chế route
+2. Phân tính giao diện
+  - Code trang chủ Netflix
+    + Dựng khung trang chủ Netflix
+    + Code Button component, FormGetStarted component
