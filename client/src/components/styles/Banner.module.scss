@@ -1,7 +1,9 @@
 .container {
-  display: flex;
   min-width: 100px;
+  
+  background-color: red;
+
+  display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: red;
 }

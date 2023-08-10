@@ -1,6 +1,7 @@
 import GlobalStyles from './GlobalStyles'
 import Banner from './Banner'
-import FormGetStared from './FormGetStared'
+import FormGetStarted from './FormGetStarted'
 import Button from './Button'
+import SelectLanguage from './SelectLanguage'
 
-export { GlobalStyles, Banner, FormGetStared, Button }
+export { GlobalStyles, Banner, FormGetStarted, Button, SelectLanguage }

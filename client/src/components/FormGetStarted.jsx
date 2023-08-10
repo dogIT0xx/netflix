@@ -1,11 +1,12 @@
 import classNames from 'classnames/bind'
 
-import styles from './styles/FormGetStared.module.scss'
+import styles from './styles/FormGetStarted.module.scss'
 import { Button } from '~/components'
+import { chevronRight } from '~/assets/icons'
 
 const cx = classNames.bind(styles)
 
-function FormGetStared() {
+function FormGetStarted() {
   return (
     <form className={cx('container')} action="">
       <p className={cx('title')}>
@@ -18,8 +19,8 @@ function FormGetStared() {
           placeholder="Email address"
         />
         <Button
-          text="Get Stared"
-          icon={{ url: 'No', alt: '' }}
+          text="Get Started"
+          icon={{ src: chevronRight, alt: 'no image' }}
           size="size-l"
         ></Button>
       </div>
@@ -27,4 +28,4 @@ function FormGetStared() {
   )
 }
 
-export default FormGetStared
+export default FormGetStarted
