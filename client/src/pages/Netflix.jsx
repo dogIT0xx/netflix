@@ -12,8 +12,12 @@ function Netflix() {
       <header className={cx('header')}>
         <img className={cx('logo')} src={logo} alt="Netflix" />
         <div className={cx('right')}>
-          <SelectLanguage />
-          <Button className={cx('btn-sign-in')} text="Sign In"></Button>
+          <SelectLanguage className={cx('select-language')} />
+          <Button
+            className={cx('btn-sign-in')}
+            text="Sign In"
+            size="size-s"
+          ></Button>
         </div>
       </header>
 

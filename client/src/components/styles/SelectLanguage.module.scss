@@ -1,13 +1,39 @@
 .container {
   width: 148px;
   height: 32px;
-  margin-right: 32px;
-  
-  color: #ffffff;
-  background-color: transparent;
-  border-radius: 4px;
-  font-size: 14px;
-  font-weight: 400;
-  > option {
+
+  position: relative;
+
+  .left-icon,
+  .right-icon {
+    position: absolute;
+    top: 8px;
+    pointer-events: none;
+  }
+
+  .left-icon {
+    left: 10px;
+  }
+
+  .right-icon {
+    right: 10px;
+  }
+
+  > select {
+    width: 148px;
+    height: 100%;
+    padding: 6px 36px;
+
+    color: #ffffff;
+    background-color: transparent;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 400;
+    appearance: none;
+
+    > option {
+      font-size: 16px;
+      font-weight: 400;
+    }
   }
 }

@@ -25,7 +25,7 @@
 .container {
   width: 80px;
   min-height: 32px;
-  
+
   background-color: #e50914;
   border-radius: 4px;
   color: #ffffff;
@@ -39,4 +39,8 @@
     font-size: inherit;
     font-weight: 500;
   }
+}
+
+.container:hover {
+  background-color: #c11119;
 }
