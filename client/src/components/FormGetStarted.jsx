@@ -6,9 +6,9 @@ import { chevronRight } from '~/assets/icons'
 
 const cx = classNames.bind(styles)
 
-function FormGetStarted() {
+function FormGetStarted({ className }) {
   return (
-    <form className={cx('container')} action="">
+    <form className={cx(className, 'container')} action="">
       <p className={cx('title')}>
         Ready to watch? Enter your email to create or restart your membership.
       </p>

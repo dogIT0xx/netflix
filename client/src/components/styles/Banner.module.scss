@@ -1,9 +1,58 @@
 .container {
-  min-width: 100px;
-  
-  background-color: red;
+  width: 1152px;
+  height: 570px;
+  padding: 72px 0px;
 
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  .text {
+    width: 570px;
+
+    color: #ffffff;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    .title {
+      font-size: 48px;
+      font-weight: 900;
+    }
+
+    .sub-title {
+      margin-top: 16px;
+
+      font-size: 24px;
+      font-weight: 400;
+    }
+  }
+
+  .img {
+    width: 580px;
+    height: 435px;
+  }
+}
+
+.text-left {
+  .text {
+    order: 1;
+  }
+
+  .img {
+    order: 2;
+  }
+}
+
+.text-right {
+  .text {
+    order: 2;
+  }
+
+  .img {
+    order: 1;
+  }
 }

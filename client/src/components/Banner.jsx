@@ -4,12 +4,12 @@ import styles from './styles/Banner.module.scss'
 
 const cx = classNames.bind(styles)
 
-function Banner({ imgInfo, callToAction }) {
+function Banner({ className, imgInfo, text, positionText = 'left' }) {
   return (
-    <div className={cx('container')}>
-      <div className={cx('CTA')}>
-        <span className={cx('title')}>{callToAction.title}</span>
-        <span className={cx('detail')}>{callToAction.detail}</span>
+    <div className={cx(className, 'container', 'text-' + positionText)}>
+      <div className={cx('text')}>
+        <span className={cx('title')}>{text.title}</span>
+        <span className={cx('sub-title')}>{text.subTitle}</span>
       </div>
       <img className={cx('img')} src={imgInfo.src} alt={imgInfo.alts}></img>
     </div>

@@ -1,3 +1,8 @@
+.background {
+  background-color: #000000;
+  height: auto;
+}
+
 .header {
   max-width: 1152px;
   height: 86px;
@@ -27,16 +32,29 @@
   }
 }
 
+main {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .divider {
+    width: 100%;
+    height: 8px;
+    background-color: #232323;
+  }
+}
+
+
 .section-container {
   width: 100%;
   height: 700px;
 
-  background-image: linear-gradient(
-      to top,
+  background-image: linear-gradient(to top,
       rgba(0, 0, 0, 0.8) 0,
       rgba(0, 0, 0, 0) 60%,
-      rgba(0, 0, 0, 0.8) 100%
-    ),
+      rgba(0, 0, 0, 0.8) 100%),
     url('../../assets/images/background-sign-up.jpg');
   color: #fff;
 
