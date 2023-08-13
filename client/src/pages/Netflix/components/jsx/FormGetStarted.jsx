@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind'
 
-import styles from './styles/FormGetStarted.module.scss'
-import { Button } from '~/components'
+import styles from '../styles/FormGetStarted.module.scss'
+import { Button } from '~/pages/Netflix/components'
 import { chevronRight } from '~/assets/icons'
 
 const cx = classNames.bind(styles)

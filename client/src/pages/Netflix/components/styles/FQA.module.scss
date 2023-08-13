@@ -1,0 +1,19 @@
+.container {
+  width: 1170px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    margin-bottom: 20px;
+
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 900;
+  }
+
+  .item {
+    margin-bottom: 8px;
+  }
+}

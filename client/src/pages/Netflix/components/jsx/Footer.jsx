@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind'
 
-import styles from './styles/Footer.module.scss'
-import { SelectLanguage } from '~/components'
+import styles from '../styles/Footer.module.scss'
+import { SelectLanguage } from '~/pages/Netflix/components'
 
 const cx = classNames.bind(styles)
 

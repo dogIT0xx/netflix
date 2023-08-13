@@ -1,0 +1,32 @@
+.btn-question,
+.answer {
+  width: 1152px;
+  padding: 24px;
+  background-color: #2d2d2d;
+}
+
+.btn-question {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .question {
+    font-size: 24px;
+    font-weight: 400;
+    color: #ffffff;
+  }
+
+  .img {
+    width: 36px;
+    height: 36px;
+  }
+}
+
+.answer {
+  display: none;
+  font-size: 24px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-top: 2px;
+}

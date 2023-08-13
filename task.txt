@@ -6,4 +6,7 @@
 2. Phân tính giao diện
   - Code trang chủ Netflix
     + Dựng khung trang chủ Netflix
-    + Code Button component, FormGetStarted component
+    + Code Button, FormGetStarted components
+    + Code SelectLanguage component (chú ý pointer-events: none)
+    + Code Footer, FQA components
+    + Refactor (tái cấu trúc dự án) --> chia các component theo page 

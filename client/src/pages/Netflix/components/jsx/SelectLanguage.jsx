@@ -1,6 +1,6 @@
 import classNames from 'classnames/bind'
 
-import styles from './styles/SelectLanguage.module.scss'
+import styles from '../styles/SelectLanguage.module.scss'
 import { globe, caretDown } from '~/assets/icons'
 
 const cx = classNames.bind(styles)
