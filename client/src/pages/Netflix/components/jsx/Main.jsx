@@ -1,6 +1,6 @@
 import classNames from 'classnames/bind'
 
-import styles from '../styles/SelectLanguage.module.scss'
+import styles from '../styles/Main.module.scss'
 import { tv, mobile0819, devicePileVN, kids } from '~/assets/images'
 import { Banner, FormGetStarted, FQA } from '~/pages/Netflix/components'
 
