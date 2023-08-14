@@ -4,17 +4,16 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  .divider {
-    width: 100%;
-    height: 8px;
-    background-color: #232323;
-  }
 }
 
-.section-container {
+.section-card-hero {
   width: 100%;
   height: 700px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   background-image: linear-gradient(
       to top,
@@ -25,27 +24,46 @@ main {
     url('../../../../assets//images/background-sign-up.jpg');
   color: #fff;
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  .content {
+  .card-hero {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
 
-    .title {
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    &__title {
       font-size: 48px;
       font-weight: 900;
     }
 
-    .sub-title {
+    &__sub-title {
       margin: 16px auto 16px;
       font-size: 24px;
       font-weight: 400;
     }
   }
+}
+
+.section {
+  width: 100%;
+  height: 575px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.divider {
+  width: 100%;
+  height: 8px;
+  background-color: #232323;
+  flex-shrink: 0;
 }
 
 article {
@@ -56,4 +74,8 @@ article {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+
+  .form-get-started {
+    margin-top: 40px;
+  }
 }

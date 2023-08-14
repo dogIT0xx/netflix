@@ -1,3 +1,4 @@
 import GlobalStyles from './jsx/GlobalStyles'
+import Button from './jsx/Button'
 
-export { GlobalStyles }
+export { GlobalStyles, Button }

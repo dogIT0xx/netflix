@@ -17,14 +17,17 @@
     color: #ffffff;
   }
 
-  .img {
+  .plus-icon {
     width: 36px;
     height: 36px;
+
+    &--rotate {
+      transform: rotate(-45deg);
+    }
   }
 }
 
 .answer {
-  display: none;
   font-size: 24px;
   font-weight: 400;
   color: #ffffff;
