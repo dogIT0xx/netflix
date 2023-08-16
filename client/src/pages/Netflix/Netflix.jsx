@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind'
 
 import styles from './Netflix.module.scss'
-import { Header, Main, Footer } from '~/pages/Netflix/components'
+import { Header, Main, Footer } from '~/components/pages/Netflix'
 
 const cx = classNames.bind(styles)
 

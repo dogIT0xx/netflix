@@ -1,0 +1,51 @@
+.container {
+  width: 450px;
+  height: 660px;
+  padding: 60px 68px 40px;
+
+  border-radius: 4px;
+  background-color: #000000bf;
+}
+
+.title {
+  color: #fff;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 28px;
+}
+
+.other {
+  width: 314px;
+  height: 190px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.sign-up-now {
+  margin-top: 16px;
+  margin-bottom: 16px;
+
+  color: #737373;
+  font-size: 16px;
+  font-weight: 400;
+
+  &__link {
+    margin-left: 4px;
+
+    color: #fff;
+  }
+}
+
+.recaptcha {
+  color: #8c8c8c;
+  font-weight: 400;
+  font-size: 13px;
+
+  &__link {
+    margin-left: 4px;
+
+    text-decoration: none;
+    color: #0071eb;
+  }
+}

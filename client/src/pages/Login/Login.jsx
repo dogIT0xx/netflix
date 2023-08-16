@@ -1,7 +1,7 @@
 import classNames from 'classnames/bind'
 
 import styles from './Login.module.scss'
-import { Header, LoginForm, Footer } from '~/pages/Login/components'
+import { Header, LoginForm, Footer } from '~/components/pages/Login'
 
 const cx = classNames.bind(styles)
 

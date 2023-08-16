@@ -1,5 +1,4 @@
-import Login from '~/pages/Login'
-import Netflix from '~/pages/Netflix'
+import { Netflix, Login } from '~/pages'
 
 // Not logged in
 const publicRoutes = [
