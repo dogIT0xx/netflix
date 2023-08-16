@@ -6,7 +6,7 @@ import { plus } from '~/assets/icons'
 
 const cx = classNames.bind(styles)
 
-function CardFQA({ className, question, answer }) {
+function CardFQA({ question, answer }) {
   const [showAnwser, setShowAnwser] = useState(false)
   const [rotatePlusIcon, setRotatePlusIcon] = useState(false)
 
@@ -16,7 +16,7 @@ function CardFQA({ className, question, answer }) {
   }
 
   return (
-    <div className={cx(className, 'container')}>
+    <div className={cx('container')}>
       <button className={cx('btn-question')} onClick={handelBtnClick}>
         <span className={cx('question')}>{question}</span>
         <img

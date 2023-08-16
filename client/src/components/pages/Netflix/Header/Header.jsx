@@ -2,8 +2,7 @@ import classNames from 'classnames/bind'
 
 import styles from './Header.module.scss'
 import { logo } from '~/assets/images'
-import { SelectLanguage } from '~/components/pages/Netflix'
-import { Button } from '~/components/common'
+import { Button, SelectLanguage } from '~/components/common'
 
 const cx = classNames.bind(styles)
 
@@ -13,12 +12,7 @@ function Header() {
       <img className={cx('logo')} src={logo} alt="Netflix" />
       <div className={cx('right')}>
         <SelectLanguage className={cx('select-language')} />
-        <Button
-          className={cx('btn-sign-in')}
-          text="Sign In"
-          size="size-s"
-          to="/login"
-        ></Button>
+        <Button text="Sign In" size="size-s" to="/login"></Button>
       </div>
     </header>
   )

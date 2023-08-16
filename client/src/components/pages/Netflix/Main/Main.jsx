@@ -57,9 +57,9 @@ const apiBanner = [
   },
 ]
 
-function Main({ className }) {
+function Main() {
   return (
-    <main className={cx(className, 'container')}>
+    <main className={cx('container')}>
       <section className={cx('section-card-hero')}>
         <div className={cx('card-hero')}>
           <div className={cx('card-hero__content')}>

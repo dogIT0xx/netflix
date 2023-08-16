@@ -4,9 +4,9 @@ import styles from './Banner.module.scss'
 
 const cx = classNames.bind(styles)
 
-function Banner({ className, imgInfo, text, positionText = 'left' }) {
+function Banner({ imgInfo, text, positionText = 'left' }) {
   return (
-    <div className={cx(className, 'container', 'text-' + positionText)}>
+    <div className={cx('container', 'text-' + positionText)}>
       <div className={cx('text')}>
         <span className={cx('title')}>{text.title}</span>
         <span className={cx('sub-title')}>{text.subTitle}</span>

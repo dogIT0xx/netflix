@@ -33,7 +33,7 @@
 }
 
 @font-face {
-  font-family: NetflixSans;   
+  font-family: NetflixSans;
   font-weight: 900;
   src: url(../../../assets/fonts/NetflixSans_W_Blk.woff2) format('woff2');
 }
@@ -55,4 +55,8 @@ html {
 
 button {
   border: none;
+}
+
+a {
+  text-decoration: none;
 }

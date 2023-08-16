@@ -44,10 +44,10 @@ const apiFQA = [
   },
 ]
 
-function FQA({ className }) {
+function FQA() {
   return (
     <>
-      <ul className={cx(className, 'container')}>
+      <ul className={cx('container')}>
         <span className={cx('title')}>Frequently Asked Questions</span>
         {apiFQA.map((data) => (
           <li className={cx('item')} key={data.id}>

@@ -5,7 +5,6 @@ import FQA from './FQA/FQA.jsx'
 import GetStartedForm from './GetStartedForm/GetStartedForm.jsx'
 import Header from './Header/Header.jsx'
 import Main from './Main/Main.jsx'
-import SelectLanguage from './SelectLanguage/SelectLanguage.jsx'
 
 export {
   Banner,
@@ -15,5 +14,4 @@ export {
   GetStartedForm,
   Header,
   Main,
-  SelectLanguage,
 }
