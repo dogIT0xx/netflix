@@ -1,10 +1,18 @@
 import classNames from 'classnames/bind'
 
 import styles from './Footer.module.scss'
+import { facebook, instagram, twitter, youtube } from '~/assets/icons'
 
 const cx = classNames.bind(styles)
 
-const apiLinks = [
+const socialLinks = [
+  { id: 1, href: '/', icon: facebook },
+  { id: 2, href: '/', icon: instagram },
+  { id: 3, href: '/', icon: twitter },
+  { id: 4, href: '/', icon: youtube },
+]
+
+const links = [
   { id: 1, href: '/', content: 'Audio Description' },
   { id: 2, href: '/', content: 'Help Center' },
   { id: 3, href: '/', content: 'Gift Cards' },
@@ -23,21 +31,18 @@ function Footer() {
   return (
     <footer className={cx('container')}>
       <div className={cx('social-links')}>
-        <a href="/">
-          <img src="" alt="" />
-        </a>
-        <a href="/">
-          <img src="" alt="" />
-        </a>
-        <a href="/">
-          <img src="" alt="" />
-        </a>
-        <a href="/">
-          <img src="" alt="" />
-        </a>
+        {socialLinks.map((socialLink) => (
+          <a
+            className={cx('social-link')}
+            key={socialLink.id}
+            href={socialLink.href}
+          >
+            <img src={socialLink.icon} alt="" />
+          </a>
+        ))}
       </div>
       <ul className={cx('grid-links')}>
-        {apiLinks.map((link) => (
+        {links.map((link) => (
           <li className={cx('grid-links__item')} key={link.id}>
             <a className={cx('grid-links__content')} href={link.href}>
               {link.content}

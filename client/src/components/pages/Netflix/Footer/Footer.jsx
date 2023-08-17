@@ -5,7 +5,7 @@ import { SelectLanguage } from '~/components/common'
 
 const cx = classNames.bind(styles)
 
-const apiLinks = [
+const Links = [
   { id: 1, href: '/', content: 'FAQ' },
   { id: 2, href: '/', content: 'Help Center' },
   { id: 3, href: '/', content: 'Account' },
@@ -30,7 +30,7 @@ function Footer() {
         <a href="/">Questions? Contact us.</a>
       </div>
       <ul className={cx('grid-links')}>
-        {apiLinks.map((link) => (
+        {Links.map((link) => (
           <li className={cx('grid-links__item')} key={link.id}>
             <a className={cx('grid-links__content')} href={link.href}>
               {link.content}

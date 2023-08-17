@@ -6,7 +6,7 @@ import { Banner, GetStartedForm, FQA } from '~/components/pages/Netflix'
 
 const cx = classNames.bind(styles)
 
-const apiBanner = [
+const Banners = [
   {
     id: 0,
     imgInfo: { src: tv, alt: 'no image' },
@@ -75,7 +75,7 @@ function Main() {
       </section>
       <div className={cx('divider')}></div>
 
-      {apiBanner.map((data) => (
+      {Banners.map((data) => (
         <section key={data.id} className={cx('section')}>
           <Banner
             key={data.id}
