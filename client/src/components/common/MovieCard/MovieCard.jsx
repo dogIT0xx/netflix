@@ -5,8 +5,8 @@ import styles from './MovieCard.module.scss'
 
 const cx = classNames.bind(styles)
 
-function MovieCard({}) {
-  return <div className={cx('container')} onMouseEnter={() => {}}></div>
+function MovieCard() {
+  return <div className={cx('container')} onMouseOver={() => {}}></div>
 }
 
 export default MovieCard

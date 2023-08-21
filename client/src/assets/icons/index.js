@@ -7,6 +7,7 @@ const facebook = require('./facebook.svg').default
 const instagram = require('./instagram.svg').default
 const twitter = require('./twitter.svg').default
 const youtube = require('./youtube.svg').default
+const bell = require('./bell.svg').default
 
 export {
   chevronRight,
@@ -18,4 +19,5 @@ export {
   instagram,
   twitter,
   youtube,
+  bell,
 }

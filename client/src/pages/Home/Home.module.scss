@@ -1,3 +1,29 @@
-.hero-img {
-  height: 500px;
+.hero-card-wrapper {
+  height: 855px;
+  padding: 0 60px;
+  background-image: url(https://occ-0-395-58.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABbKmszVC7uvVTKVvBYUm5D9j2pe8ZaIvTO4Zxe2mrLVCKUzQVTFgUtm6RGXuL6mIaWtHbzkDlBeCejBTN5BAgyyq3sJEESC7Ry9c.webp?r=54f);
+  background-size: cover;
+
+  position: relative;
+}
+
+.hero-card-layer {
+  position: absolute;
+  top: 218px;
+
+  .title-logo {
+    width: 550px;
+    height: auto;
+
+    margin-bottom: 40px;
+  }
+
+  .track-content {
+    width: 550px;
+    height: 70px;
+
+    font-size: 18.5px;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
 }

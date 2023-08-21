@@ -2,8 +2,8 @@ import classNames from 'classnames/bind'
 import { Link } from 'react-router-dom'
 
 import styles from './Header.module.scss'
-import { logo } from '~/assets/images'
-import { search } from '~/assets/icons'
+import { logo, profile } from '~/assets/images'
+import { search, bell } from '~/assets/icons'
 
 const cx = classNames.bind(styles)
 
@@ -52,19 +52,19 @@ function Button() {
         ))}
       </ul>
       <ul className={cx('left-nav')}>
-        <li className={cx('nav-element')}>
-          <button className={cx('nav-element__btn', 'search')}>
+        <li>
+          <button className={cx('nav-btn', 'search')}>
             <img src={search} alt=""></img>
           </button>
         </li>
-        <li className={cx('nav-element')}>
-          <button className={cx('nav-element__btn', 'notifications-menu')}>
-            <img src={search} alt=""></img>
+        <li>
+          <button className={cx('nav-btn', 'notifications-menu')}>
+            <img src={bell} alt=""></img>
           </button>
         </li>
-        <li className={cx('nav-element')}>
-          <button className={cx('nav-element__btn', 'account-menu')}>
-            <img src={search} alt=""></img>
+        <li>
+          <button className={cx('nav-btn', 'account-menu')}>
+            <img src={profile} alt=""></img>
           </button>
         </li>
       </ul>
