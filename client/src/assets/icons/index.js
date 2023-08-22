@@ -8,6 +8,9 @@ const instagram = require('./instagram.svg').default
 const twitter = require('./twitter.svg').default
 const youtube = require('./youtube.svg').default
 const bell = require('./bell.svg').default
+const circleInfo = require('./circle-info.svg').default
+const play = require('./play.svg').default
+const refresh = require('./refresh.svg').default
 
 export {
   chevronRight,
@@ -20,4 +23,7 @@ export {
   twitter,
   youtube,
   bell,
+  circleInfo,
+  play,
+  refresh,
 }

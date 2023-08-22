@@ -1,0 +1,34 @@
+.container {
+  height: 855px;
+  background-size: cover;
+
+  position: relative;
+}
+
+.background-static {
+  width: 100%;
+  height: 100%;
+}
+
+.layer {
+  padding-left: 60px;
+
+  position: absolute;
+  top: 218px;
+
+  .title-logo {
+    width: 550px;
+    height: auto;
+
+    margin-bottom: 40px;
+  }
+
+  .track-content {
+    width: 550px;
+    height: 70px;
+
+    font-size: 18.5px;
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+}

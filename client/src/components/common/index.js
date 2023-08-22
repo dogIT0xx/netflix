@@ -7,6 +7,7 @@ import PlaylistCard from './PlaylistCard/PlaylistCard.jsx'
 import MovieCard from './MovieCard/MovieCard.jsx'
 import DetailModal from './DetailModal/DetailModal.jsx'
 import PreviewModal from './PreviewModal/PreviewModal.jsx'
+import BillBoard from './BillBoard/BillBoard.jsx'
 
 export {
   Button,
@@ -18,4 +19,5 @@ export {
   MovieCard,
   DetailModal,
   PreviewModal,
+  BillBoard,
 }

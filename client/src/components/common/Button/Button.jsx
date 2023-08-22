@@ -9,7 +9,7 @@ function Button({ className, text, icon, size = 'size-m', to }) {
   return (
     <Link to={to}>
       <button className={cx(className, size, 'container')}>
-        <span className={cx('text')}>{text}</span>
+        {text && <span className={cx('text')}>{text}</span>}
         {icon && (
           <img className={cx('icon')} src={icon.src} alt={icon.alt}></img>
         )}

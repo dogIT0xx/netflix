@@ -1,5 +1,4 @@
 import classNames from 'classnames/bind'
-import { Link } from 'react-router-dom'
 
 import styles from './Header.module.scss'
 import { logo, profile } from '~/assets/images'
@@ -10,32 +9,32 @@ const cx = classNames.bind(styles)
 const navTabs = [
   {
     id: 1,
-    href: '/',
+    href: '/browse',
     content: 'Home',
   },
   {
     id: 2,
-    href: '/',
+    href: '#',
     content: 'TV Shows',
   },
   {
     id: 3,
-    href: '/',
+    href: '#',
     content: 'Movies',
   },
   {
     id: 4,
-    href: '/',
+    href: '#',
     content: 'New & Popular',
   },
   {
     id: 5,
-    href: '/',
+    href: '#',
     content: 'My List',
   },
   {
     id: 6,
-    href: '/',
+    href: '#',
     content: 'Browse by Languages',
   },
 ]
