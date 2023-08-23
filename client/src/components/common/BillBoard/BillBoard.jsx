@@ -1,7 +1,6 @@
 import classNames from 'classnames/bind'
 
 import styles from './BillBoard.module.scss'
-import { Button } from '~/components/common'
 import { titleLogo, billboardBackground } from '~/assets/images'
 import { play, circleInfo, refresh } from '~/assets/icons'
 
@@ -23,23 +22,23 @@ function BillBoard() {
           plan.
         </div>
         <div className={cx('action-btn')}>
-          <Button
-            className={cx('play-btn')}
-            text="Play"
-            icon={{ src: play, alt: '' }}
-            left-text
-          />
-          <Button
-            className={cx('more-info-btn')}
-            text="More Info"
-            icon={{ src: circleInfo, alt: '' }}
-          />
-          <Button
-            className={cx('replay-btn')}
-            icon={{ src: refresh, alt: '' }}
-          />
+          <div className={cx('action-btn-left')}>
+            <button className={cx('btn', 'play-btn')}>
+              <img src={play} alt="" />
+              <span className={cx('btn__text')}>Play</span>
+            </button>
+            <button className={cx('btn', 'more-info-btn')}>
+              <img src={circleInfo} alt="" />
+              <span className={cx('btn__text')}>More Info</span>
+            </button>
+          </div>
+          <div className={cx('action-btn-right')}>
+            <button className={cx('btn', 'audio-btn')}>
+              <img src={refresh} alt="" />
+            </button>
+            <span className={cx('maturity-rating')}>18+</span>
+          </div>
         </div>
-        <span className={cx('maturity-rating')}>18+</span>
       </div>
     </div>
   )

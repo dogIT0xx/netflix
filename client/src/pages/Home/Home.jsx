@@ -2,7 +2,7 @@ import classNames from 'classnames/bind'
 
 import styles from './Home.module.scss'
 import { MainLayout } from '~/layouts'
-import { PlaylistCard, Button, BillBoard } from '~/components/common'
+import { PlaylistCard, BillBoard } from '~/components/common'
 
 const cx = classNames.bind(styles)
 
@@ -11,7 +11,17 @@ function Home() {
     <MainLayout>
       <main>
         <BillBoard />
-        <PlaylistCard />
+        <ul className={cx('play-lists')}>
+          <li>
+            <PlaylistCard />
+          </li>
+          <li>
+            <PlaylistCard />
+          </li>
+          <li>
+            <PlaylistCard />
+          </li>
+        </ul>
       </main>
     </MainLayout>
   )
