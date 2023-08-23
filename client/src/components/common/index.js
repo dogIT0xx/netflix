@@ -8,6 +8,7 @@ import MovieCard from './MovieCard/MovieCard.jsx'
 import DetailModal from './DetailModal/DetailModal.jsx'
 import PreviewModal from './PreviewModal/PreviewModal.jsx'
 import BillBoard from './BillBoard/BillBoard.jsx'
+import DropDown from './DropDown/DropDown.jsx'
 
 export {
   Button,
@@ -20,4 +21,5 @@ export {
   DetailModal,
   PreviewModal,
   BillBoard,
+  DropDown,
 }
